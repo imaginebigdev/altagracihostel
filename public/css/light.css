@@ -1261,7 +1261,7 @@ span:hover {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-body {
+/* body {
   cursor: none;
 }
 
@@ -1317,7 +1317,7 @@ body {
 
 .cursor-outer.cursor-hover {
   opacity: 0;
-}
+} */
 
 /* ====================== [ End Cursor Style ] ====================== */
 /* ====================== [ Start progress-wrap ] ====================== */
@@ -1796,7 +1796,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   color: #fff;
   padding: 15px 7px;
@@ -1926,7 +1926,7 @@ body {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 250px;
 }
 
 .nav-scroll {
@@ -4804,7 +4804,7 @@ body {
   right: 120px;
   bottom: 0;
   left: -300px;
-  background: #f5f5f5;
+
   z-index: -1;
 }
 
@@ -8003,7 +8003,7 @@ body {
 
 .map {
   width: 100%;
-  height: 60vh;
+  height: 100vh;
 }
 
 /* ====================== [ End contact ] ====================== */
@@ -8090,7 +8090,7 @@ footer .item .logo {
 }
 
 footer .item .logo img {
-  width: 50px;
+  width: 250px;
 }
 
 footer .item .social a {
@@ -8238,7 +8238,7 @@ footer .item .copy-right p a {
 
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 250px;
   }
 
   .nav-scroll .icon-bar,
@@ -8628,7 +8628,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 40px;
+    width: 250px;
   }
 
   .hamenu .menu-links .main-menu > li {

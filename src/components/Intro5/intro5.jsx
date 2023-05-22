@@ -11,7 +11,7 @@ SwiperCore.use([Navigation, Pagination, Parallax]);
 const Intro5 = () => {
   const [load, setLoad] = React.useState(true);
   React.useEffect(() => {
-    removeSlashFromPagination()
+    removeSlashFromPagination();
     setTimeout(() => {
       setLoad(false);
     });
@@ -73,58 +73,11 @@ const Intro5 = () => {
                   className="bg-img valign"
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="6"
-                >
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <div className="caption mt-30">
-                          <h5>0{index + 1} .</h5>
-                          <h1>
-                            {typeof slide.title === "object" ? (
-                              <>
-                                {slide.title.first} <br /> {slide.title.second}
-                              </>
-                            ) : (
-                              slide.title
-                            )}
-                          </h1>
-                          {slide?.content && <p>{slide.content}</p>}
-                        </div>
-                      </div>
-                      <div className="col-lg-4 valign">
-                        <div className="explore">
-                          <Link href="/project-details2/project-details2-dark"> 
-                          <a >
-                            Explore Project
-                            <i className="ion-chevron-right"></i>
-                          </a>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                ></div>
               </SwiperSlide>
             ))}
           </Swiper>
         ) : null}
-        <div className="setting">
-          <div className="controls">
-            <div
-              ref={navigationNextRef}
-              className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
-            >
-              <i className="ion-chevron-right"></i>
-            </div>
-            <div
-              ref={navigationPrevRef}
-              className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
-            >
-              <i className="ion-chevron-left"></i>
-            </div>
-          </div>
-          <div ref={paginationRef} className="swiper-pagination"></div>
-        </div>
       </div>
     </header>
   );

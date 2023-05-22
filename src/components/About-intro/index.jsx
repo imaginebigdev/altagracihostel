@@ -4,7 +4,7 @@ import AboutInfo1Data from "../../data/sections/about-info1.json";
 
 const AboutIntro = () => {
   return (
-    <section className="intro-section section-padding pb-0">
+    <section className="intro-section section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-4">
@@ -14,17 +14,12 @@ const AboutIntro = () => {
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text">
-              <Split>
-                <p
-                  className="wow txt mb-10 words chars splitting"
-                  data-splitting
-                >
-                  {AboutInfo1Data.paragraph1}
-                </p>
-                <p className="wow txt words chars splitting" data-splitting>
-                  {AboutInfo1Data.paragraph2}
-                </p>
-              </Split>
+              <p className="wow txt mb-10 words chars splitting" data-splitting>
+                {AboutInfo1Data.paragraph1}
+              </p>
+              <p className="wow txt words chars splitting" data-splitting>
+                {AboutInfo1Data.paragraph2}
+              </p>
             </div>
           </div>
         </div>
