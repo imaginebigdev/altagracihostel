@@ -42,7 +42,7 @@
 ---------------------------------------------------------------- */
 /* ====================== [ Start typography  ] ====================== */
 body {
-  font-family: "Manrope", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 h1 {
@@ -483,7 +483,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .accordion.shadwo .item .accordion-info {
   margin-top: 20px;
   display: none;
-  transition: height .5s ease;
+  transition: height 0.5s ease;
   overflow: hidden;
 }
 

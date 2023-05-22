@@ -25,9 +25,7 @@ const AboutUs2 = () => {
                   </div>
                   <div className="container">
                     <div className="row">
-                      <div className="col-md-6">
-                        
-                      </div>
+                      <div className="col-md-6"></div>
                       <div className="col-md-6"></div>
                     </div>
                   </div>
@@ -40,19 +38,18 @@ const AboutUs2 = () => {
               <div className="sub-title">
                 <h6>{AboutUs2Date.smallTitle}</h6>
               </div>
-              <Split>
-                <h3
-                  className="words chars splitting main-title wow"
-                  data-splitting
-                >
-                  {AboutUs2Date.title.first} <br /> {AboutUs2Date.title.second}
-                </h3>
-              </Split>
-              <Split>
-                <p className="words chars splitting wow txt" data-splitting>
-                  {AboutUs2Date.content}
-                </p>
-              </Split>
+
+              <h3
+                className="words chars splitting main-title wow"
+                data-splitting
+              >
+                {AboutUs2Date.title.first} <br /> {AboutUs2Date.title.second}
+              </h3>
+
+              <p className="words chars splitting wow txt" data-splitting>
+                {AboutUs2Date.content}
+              </p>
+
               <div className="ftbox mt-30">
                 <ul>
                   {AboutUs2Date.features.map((feature) => (

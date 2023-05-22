@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "tittle": "Habitacion 1",
+    "content": "Cama en habitación compartida de 6 camas. Esta habitación cuenta con 3 camas cucheta, ropa de cama, baño privado y amplios lockers.",
+    "img": "/img/habitaciones/1.jpg"
+  },
+  {
+    "id": 2,
+    "tittle": "Habitacion 2",
+    "content": "Cama en habitación compartida de 8 camas. Esta habitación cuenta con 4 camas cucheta, ropa de cama, baño privado y amplios lockers.",
+    "img": "/img/habitaciones/2.jpg"
+  },
+  {
+    "id": 3,
+    "tittle": "Habitacion 3",
+    "content": "Esta habitación cuenta con cama matrimonial, ropa de cama, toallas, baño privado, aire acondicionado y calefacción.",
+    "img": "/img/habitaciones/3.jpg"
+  },
+  {
+    "id": 4,
+    "tittle": "Habitacion 4",
+    "content": "Esta habitación cuenta con cama individual + 1 cama cucheta, ropa de cama, toallas, baño privado y calefacción",
+    "img": "/img/habitaciones/4.jpg"
+  },
+  {
+    "id": 5,
+    "tittle": "Habitacion 5",
+    "content": "Esta habitación cuenta con cama individual + 1 cama cucheta, ropa de cama, toallas, baño privado y calefacción.",
+    "img": "/img/habitaciones/5.jpg"
+  },
+  {
+    "id": 6,
+    "tittle": "Habitacion 6",
+    "content": "Esta habitación cuenta con 1 cama matrimonial + 1 cama cucheta, ropa de cama, toallas, baño privado, aire acondicionado y calefacción.",
+    "img": "/img/habitaciones/6.jpg"
+  }
+]

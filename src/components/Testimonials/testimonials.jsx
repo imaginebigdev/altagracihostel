@@ -19,10 +19,15 @@ const Testimonials = () => {
           <div className="col-lg-7 col-md-10">
             <div className="s-head text-center mb-80">
               <h6 className="stit mb-30">
-                <span className="left"></span> Clients Feedback
+                <span className="left"></span> CLIENTES FELICES
                 <span className="right"></span>
               </h6>
-              <h2>Valuable Clinets Feedback About Our Services</h2>
+              <p>
+                El hostel ha recibido a personas de todo el mundo, su inmediatez
+                con todo el conurbano de la ciudad, su trayectoria institucional
+                y su fácil acceso hace que sea la casa de muchos grupos,
+                contingentes, equipos, turistas y viajantes internacionales.
+              </p>
             </div>
           </div>
         </div>
@@ -65,19 +70,13 @@ const Testimonials = () => {
                       </div>
                       <div className="text">
                         <p>
-                          unde omnis iste natus error sit voluptatem accusantium
-                          dolore laudantium totam rem aperiam eaqusa quae abillo
-                          inventore veritatis architect beatae vitae dicta
-                          ecabo.
+                          Super bien atendido por Barbara, brinda toda la ayuda
+                          y esta al servicio del huésped en todo momento
                         </p>
                       </div>
                       <div className="info">
-                        <div className="img">
-                          <img src="/img/mobile-app/clients/1.png" alt="" />
-                        </div>
                         <div className="cont">
-                          <h6 className="mb-10">William Glenn</h6>
-                          <span>Senior Manager</span>
+                          <h6 className="mb-10">Matias N.</h6>
                         </div>
                       </div>
                     </div>
@@ -89,19 +88,14 @@ const Testimonials = () => {
                       </div>
                       <div className="text">
                         <p>
-                          unde omnis iste natus error sit voluptatem accusantium
-                          dolore laudantium totam rem aperiam eaqusa quae abillo
-                          inventore veritatis architect beatae vitae dicta
-                          ecabo.
+                          Todo limpio y ordenado. Excelente disposición para
+                          ofrecer ayuda sobre el lugar y lugares de
+                          esparcimiento
                         </p>
                       </div>
                       <div className="info">
-                        <div className="img">
-                          <img src="/img/mobile-app/clients/2.png" alt="" />
-                        </div>
                         <div className="cont">
-                          <h6 className="mb-10">John R. Gordon</h6>
-                          <span>Senior Manager</span>
+                          <h6 className="mb-10">Ana M.</h6>
                         </div>
                       </div>
                     </div>
@@ -113,43 +107,13 @@ const Testimonials = () => {
                       </div>
                       <div className="text">
                         <p>
-                          unde omnis iste natus error sit voluptatem accusantium
-                          dolore laudantium totam rem aperiam eaqusa quae abillo
-                          inventore veritatis architect beatae vitae dicta
-                          ecabo.
+                          Hermoso lugar súper recomendable, muy buena ubicación,
+                          súper limpio,te hacen sentir como en casa 🤗
                         </p>
                       </div>
                       <div className="info">
-                        <div className="img">
-                          <img src="/img/mobile-app/clients/3.png" alt="" />
-                        </div>
                         <div className="cont">
-                          <h6 className="mb-10">Josesr B. Rink</h6>
-                          <span>Senior Manager</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="item">
-                      <div className="icon mb-50">
-                        <img src="/img/mobile-app/qoute.png" alt="" />
-                      </div>
-                      <div className="text">
-                        <p>
-                          unde omnis iste natus error sit voluptatem accusantium
-                          dolore laudantium totam rem aperiam eaqusa quae abillo
-                          inventore veritatis architect beatae vitae dicta
-                          ecabo.
-                        </p>
-                      </div>
-                      <div className="info">
-                        <div className="img">
-                          <img src="/img/mobile-app/clients/1.png" alt="" />
-                        </div>
-                        <div className="cont">
-                          <h6 className="mb-10">William Glenn</h6>
-                          <span>Senior Manager</span>
+                          <h6 className="mb-10"> Javier</h6>
                         </div>
                       </div>
                     </div>

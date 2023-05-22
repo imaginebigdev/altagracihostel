@@ -79,20 +79,34 @@ const IntroWithSlider = ({ sliderRef }) => {
           >
             {introData.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
-                <div
-                  className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
-                  data-overlay-dark="6"
-                >
+                <div className="video-background">
+                  <video
+                    src="/video/altagracia.mp4"
+                    autoPlay={true}
+                    loop={true}
+                    muted={true}
+                  ></video>
+                </div>
+                <div className="bg-img valign" data-overlay-dark="6">
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-lg-8 col-md-10">
                         <div className="caption center mt-30">
-                          <h1 className="color-font">{slide.title}</h1>
+                          <a className="logo mb-30">
+                            <img
+                              src="/img/logo.png"
+                              alt="logo"
+                              style={{ width: "150px" }}
+                            />
+                          </a>
+                          <h1 style={{ fontSize: "50px" }}>{slide.title}</h1>
                           {slide?.content && <p>{slide.content}</p>}
-                          <Link href="/about/about-dark">
-                            <a className="butn bord curve mt-30">
-                              <span>Look More</span>
+                          <Link href="/contacto">
+                            <a
+                              className="butn bord curve mt-30"
+                              style={{ cursor: "pointer" }}
+                            >
+                              <span>haz tu Reserva</span>
                             </a>
                           </Link>
                         </div>
@@ -104,36 +118,6 @@ const IntroWithSlider = ({ sliderRef }) => {
             ))}
           </Swiper>
         ) : null}
-        <div className="setone setwo">
-          <div
-            ref={navigationNextRef}
-            className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
-          >
-            <i className="fas fa-chevron-right"></i>
-          </div>
-          <div
-            ref={navigationPrevRef}
-            className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
-          >
-            <i className="fas fa-chevron-left"></i>
-          </div>
-        </div>
-        <div ref={paginationRef} className="swiper-pagination top botm"></div>
-
-        <div className="social-icon">
-          <a href="#0">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="#0">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#0">
-            <i className="fab fa-behance"></i>
-          </a>
-          <a href="#0">
-            <i className="fab fa-pinterest-p"></i>
-          </a>
-        </div>
       </div>
     </header>
   );

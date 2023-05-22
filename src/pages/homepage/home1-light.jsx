@@ -1,18 +1,16 @@
 import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import IntroWithSlider from "../../components/Intro-with-slider/intro-with-slider";
-import AboutUs from "../../components/About-us/about-us";
 import Services from "../../components/Services/services";
-import Works from "../../components/Works/works";
-import Numbers from "../../components/Numbers/numbers";
-import VideoWithTestimonials from "../../components/Video-with-testimonials/video-with-testimonials";
-import SkillsCircle from "../../components/Skills-circle/skills-circle";
-import Clients from "../../components/Clients/clients";
-import Blogs1 from "../../components/blogs/Blogs1/blogs1";
-import appData from '../../data/app.json'
-import CallToAction from "../../components/Call-to-action/call-to-action";
+import appData from "../../data/app.json";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
+import AboutUs6 from "../../components/About-us6/about-us6";
+import TestimonialsArch from "../../components/Testimonials-arch/testimonials-arch";
+import Testimonials from "../../components/Testimonials/testimonials";
+import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
+import Clients from "../../components/Clients/clients";
+import Clients2 from "../../components/Clients2/clients2";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -28,7 +26,6 @@ const Homepage1 = () => {
       if (MainContent.current) {
         MainContent.current.style.marginTop = slidHeight + "px";
       }
-      
     }, 1000);
     var navbar = navbarRef.current,
       logo = logoRef.current;
@@ -48,19 +45,13 @@ const Homepage1 = () => {
     });
   }, [fixedSlider, MainContent, navbarRef]);
   return (
-    <LightTheme>
+    <LightTheme mobileappstyle>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
-        <AboutUs />
+        <AboutUs6 />
         <Services />
-        <Works />
-        <Numbers />
-        <VideoWithTestimonials />
-        <SkillsCircle theme="light" />
-        <Clients theme="light" />
-        <Blogs1 />
-        <CallToAction />
+        <Testimonials />
         <Footer />
       </div>
     </LightTheme>

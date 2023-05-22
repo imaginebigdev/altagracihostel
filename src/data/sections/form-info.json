@@ -1,10 +1,11 @@
 {
   "id": 1,
   "title": "Let's Talk.",
-  "email": "Email@example.com",
-  "phone": "+4.930.705.5448",
+  "email": "info@altagraciahostel.com.ar",
+  "email2": "altagraciahostel@gmail.com",
+  "phone": "+(549)3547664268",
   "location": {
-    "first": "295 Witting Streets Suite 666,",
-    "second": "Melbourne, Australia"
+    "first": "Paraguay 218 entre calles Brasil y Agustín Aguirre, ",
+    "second": "ALTA GRACIA (X5186) Argentina"
   }
 }
