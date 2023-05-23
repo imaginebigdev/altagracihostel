@@ -122,7 +122,6 @@ const Testimonials = () => {
               ) : (
                 ""
               )}
-              <div ref={paginationRef} className="swiper-pagination"></div>
             </div>
           </div>
         </div>
