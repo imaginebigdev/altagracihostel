@@ -5,7 +5,7 @@ const MinimalArea = ({ info }) => {
   return (
     <section
       className="min-area sub-bg"
-      style={{ background: info.id % 2 === 0 ? "#f4be28" : "white" }}
+      style={{ background: info.id % 2 === 0 ? "#f4be28" : "#f8f9fc" }}
     >
       <div className="container">
         <div className="row">
@@ -19,6 +19,10 @@ const MinimalArea = ({ info }) => {
               <h4 className="wow color-font">{info?.tittle}</h4>
               <p className="wow txt" data-splitting>
                 {info?.content}
+              </p>
+              <br />
+              <p className="wow txt" data-splitting>
+                {info?.small}
               </p>
             </div>
           </div>

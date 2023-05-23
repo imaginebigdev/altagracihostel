@@ -43,36 +43,16 @@ const AboutUs2 = () => {
                 className="words chars splitting main-title wow"
                 data-splitting
               >
-                {AboutUs2Date.title.first} <br /> {AboutUs2Date.title.second}
+                {AboutUs2Date.title}
               </h3>
 
               <p className="words chars splitting wow txt" data-splitting>
                 {AboutUs2Date.content}
               </p>
-
-              <div className="ftbox mt-30">
-                <ul>
-                  {AboutUs2Date.features.map((feature) => (
-                    <li
-                      key={feature.id}
-                      className={`wow fadeIn ${feature.id == 2 ? "space" : ""}`}
-                      data-wow-delay={feature.wowDelay}
-                    >
-                      <span
-                        className={`icon color-font pe-7s-${feature.icon}`}
-                      ></span>
-                      <h6>
-                        {feature.name.first} <br /> {feature.name.second}
-                      </h6>
-                      <div className="dots">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <br />
+              <p className="words chars splitting wow txt" data-splitting>
+                {AboutUs2Date.content2}
+              </p>
             </div>
           </div>
         </div>

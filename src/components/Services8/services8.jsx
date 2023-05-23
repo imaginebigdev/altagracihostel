@@ -4,118 +4,149 @@ const Services8 = () => {
   return (
     <section className="app-services section-padding bg-gray">
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-7 col-md-10">
-            <div className="s-head text-center mb-80">
-              <h6 className="stit mb-30">
-                <span className="left"></span> Application Features
-                <span className="right"></span>
-              </h6>
-              <h2>Amazing Features to Customize your Application Easy</h2>
-            </div>
-          </div>
-        </div>
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="item mb-30">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-vector"></span>
+                  <span className="fa fa-shower"></span>
                 </div>
                 <div className="text-tit">
-                  <h5>Modern Design</h5>
+                  <h5>Baño privado</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="item mb-30">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-rocket"></span>
+                  <span className="fa fa-industry"></span>
                 </div>
                 <div className="text-tit">
-                  <h5>Fast Installation</h5>
+                  <h5>Información turística</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="item mb-30">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-graph3"></span>
+                  <span className="fa fa-unlock"></span>
                 </div>
                 <div className="text-tit">
-                  <h5>Digital Analytics</h5>
+                  <h5>Amplios lockers individuales</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="item sm-mb50">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-anchor"></span>
+                  <span className="fa fa-wifi"></span>
                 </div>
                 <div className="text-tit">
-                  <h5>SEO Friendly</h5>
+                  <h5>Wi-fi las 24hs</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="item sm-mb50">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-phone"></span>
+                  <span className="fa fa-bed"></span>
                 </div>
                 <div className="text-tit">
-                  <h5>Clean Coding</h5>
+                  <h5>Ropa de cama, toallas</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="item">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-lock"></span>
+                  <span className="fa fa-water"></span>
                 </div>
                 <div className="text-tit">
-                  <h5>Heigh Security</h5>
+                  <h5>Agua caliente las 24hs</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 mt-30">
+            <div className="item sm-mb50">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  <span className="fa fa-fire"></span>
+                </div>
+                <div className="text-tit">
+                  <h5>Calefacción</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 mt-30">
+            <div className="item sm-mb50">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  <span className="fa fa-faucet"></span>
+                </div>
+                <div className="text-tit">
+                  <h5>Cocina equipada</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 mt-30">
+            <div className="item sm-mb50">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  <span className="fa fa-briefcase-medical"></span>
+                </div>
+                <div className="text-tit">
+                  <h5>Asistencia medica las 24hs</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 mt-30">
+            <div className="item sm-mb50">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  <span className="fa fa-book-open"></span>
+                </div>
+                <div className="text-tit">
+                  <h5>Bibloteca y entretenimiento</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 mt-30">
+            <div className="item sm-mb50">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  <span className="fab fa-gripfire"></span>
+                </div>
+                <div className="text-tit">
+                  <h5>Jardín con asador</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 mt-30">
+            <div className="item sm-mb50">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  <span className="fab fa-accessible-icon"></span>
+                </div>
+                <div className="text-tit">
+                  <h5>Accesibilidad</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>

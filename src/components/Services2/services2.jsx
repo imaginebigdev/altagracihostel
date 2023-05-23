@@ -9,49 +9,48 @@ const Services2 = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+                Alta Gracia Hostel
               </h6>
-              <h3 className="wow color-font">
-                We are a new digital product development agency
-              </h3>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
             <div className="step-item xtop">
-              <span className="icon pe-7s-gleam"></span>
-              <h6>Digital Marketing</h6>
+              <span className="icon fa fa-wifi"></span>
+              <h6>CONEXIÓN WIFI</h6>
               <p>
-                Tempore corrupti temporibus fuga earum asperiores fugit
-                laudantium.
+                Internet las 24Hs . Wifi de banda ancha disponible en toda tu
+                estadía. Te esperamos en Alta Gracia Hostel.
               </p>
             </div>
           </div>
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
             <div className="step-item xcolor">
-              <span className="icon pe-7s-phone"></span>
-              <h6>Web &amp; App Development</h6>
+              <span className="icon fa fa-bed"></span>
+              <h6>HABITACIONES</h6>
               <p>
-                Tempore corrupti temporibus fuga earum asperiores fugit
-                laudantium.
+                Contamos con habitaciónes dobles, triples, individuales. Y
+                habitaciones “dormi” de estadia compartida. Todas tienen baño
+                privado.
               </p>
             </div>
           </div>
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
             <div className="step-item xbottom">
-              <span className="icon pe-7s-magic-wand"></span>
-              <h6>Graphic Design</h6>
+              <span className="icon fa fa-fire"></span>
+              <h6>ASADOR</h6>
               <p>
-                Tempore corrupti temporibus fuga earum asperiores fugit
-                laudantium.
+                El hostel cuenta con un amplio jardín con asador, muy cómodo
+                para que tu estadía sea un experiencia cómoda y agradable con
+                amigos.
               </p>
             </div>
           </div>
         </div>
         <div className="smore">
-          <Link href="/about/about-dark">
-            <a>Discover More</a>
+          <Link href="/servicios">
+            <a>Ver todos los servicio</a>
           </Link>
           <i className="fas fa-long-arrow-alt-right"></i>
         </div>

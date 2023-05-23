@@ -4,26 +4,125 @@ import { Formik, Form, Field } from "formik";
 
 const ContactForm = () => {
   const messageRef = React.useRef(null);
-  function validateEmail(value) {
-    let error;
-    if (!value) {
-      error = "Required";
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
+  const [errors, setErrors] = React.useState({
+    email: "",
+  });
+  const [input, setInput] = React.useState({
+    name: "",
+    email: "",
+    room: "",
+    message: "",
+  });
+  console.log(input);
+  const validador = (inputs) => {
+    let validations = {};
+    const emailExpresion =
+      /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+    if (!inputs.email) {
+      validations.email = "Debe ingresar su email";
+    } else if (!emailExpresion.test(inputs.email)) {
+      validations.email = "Ingrese un email válido";
     }
-    return error;
-  }
-  const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+    return validations;
+  };
+
+  const handleOnChange = (e) => {
+    setInput({
+      ...input,
+      [e.target.name]: e.target.value,
+    });
+    const errores = validador({ ...input, [e.target.name]: e.target.value });
+    setErrors(errores);
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm("service", "template", e.target, "key").then((res) => {
+      console.log(res),
+        (error) => {
+          console.log(error);
+        };
+    });
+
+    messageRef.current.innerText =
+      "Su mensaje fue enviado correctamente. Nos estaremos contactando con usted a la brevedad.";
+
+    setTimeout(() => {
+      messageRef.current.innerText = "";
+    }, 3000);
+
+    setInput({
+      name: "",
+      email: "",
+      message: "",
+    });
+  };
   return (
     <section className="contact section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="form md-mb50">
-              <h4 className="fw-700 color-font mb-50">Reserva aqui</h4>
-              <button type="submit" className="butn bord">
-                <span>Send Message</span>
-              </button>
+              <h4 className="fw-700 color-font mb-50">Reserva ahora</h4>
+              <Formik>
+                <Form onSubmit={sendEmail} autoComplete="off" id="contact-form">
+                  <div className="messages" ref={messageRef}></div>
+                  <div className="controls">
+                    <div className="form-group">
+                      <Field
+                        id="form_name"
+                        type="text"
+                        name="name"
+                        value={input.name}
+                        placeholder="Nombre Completo"
+                        required="required"
+                        onChange={(e) => handleOnChange(e)}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <Field
+                        id="form_email"
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        onChange={(e) => handleOnChange(e)}
+                        value={input.email}
+                      />
+                      {errors.email ? <div>{errors.email}</div> : null}
+                    </div>
+                    <div className="form-group">
+                      <Field
+                        as="select"
+                        name="room"
+                        onChange={(e) => handleOnChange(e)}
+                      >
+                        <option value="Habitacion 1">Habitacion 1</option>
+                        <option value="Habitacion 2">Habitacion 2</option>
+                        <option value="Habitacion 3">Habitacion 3</option>
+                        <option value="Habitacion 4">Habitacion 4</option>
+                        <option value="Habitacion 5">Habitacion 5</option>
+                        <option value="Habitacion 6">Habitacion 6</option>
+                      </Field>
+                    </div>
+                  </div>
+                  <div className="form-group">
+                    <Field
+                      as="textarea"
+                      id="form_message"
+                      name="message"
+                      placeholder="Mensaje"
+                      rows="4"
+                      required="required"
+                      onChange={(e) => handleOnChange(e)}
+                      value={input.message}
+                    />
+                  </div>
+
+                  <button type="submit" className="butn bord">
+                    <span>Enviar Mensaje</span>
+                  </button>
+                </Form>
+              </Formik>
             </div>
           </div>
           <div className="col-lg-5 offset-lg-1">
@@ -44,7 +143,7 @@ const ContactForm = () => {
                 <h5>{ContactFromDate.phone}</h5>
               </div>
               <h3 className="wow" data-splitting>
-                Visit Us.
+                Dirección
               </h3>
               <div className="item">
                 <h6>

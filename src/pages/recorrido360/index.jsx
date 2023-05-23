@@ -28,8 +28,8 @@ const BlogLight = () => {
     <LightTheme>
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <PageHeader
-        title="Our News."
-        paragraph="All the most current news and events of our creative team."
+        title="Recorrido 360"
+        paragraph="Recorre nuestro hostel desde tu computadora/telefono"
       />
       <div className="map" id="ieatmaps">
         <iframe

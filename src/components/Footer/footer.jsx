@@ -4,6 +4,7 @@ import Link from "next/link";
 import appData from "../../data/app.json";
 
 const Footer = ({ hideBGCOLOR }) => {
+  const color = "white";
   return (
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
       <div className="container">
@@ -11,28 +12,31 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Contact Us</h5>
+                <h5>Contacto</h5>
               </div>
               <ul>
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <h6>Dirección</h6>
+                    <p style={{ color: color }}>
+                      Paraguay 218 (entre Brasil y Agustín Aguirre)
+                    </p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
-                    <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <h6>Email</h6>
+                    <p style={{ color: color }}>altagraciahostel@gmail.com</p>
+                    <p style={{ color: color }}>info@altagraciahostel.com.ar</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <h6>Telefono</h6>
+                    <p style={{ color: color }}>+3547428810</p>
                   </div>
                 </li>
               </ul>
@@ -41,10 +45,10 @@ const Footer = ({ hideBGCOLOR }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Recent News</h5>
+                <h5>Noticias recientes</h5>
               </div>
               <ul>
-                <li>
+                {/* <li>
                   <div className="img">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
@@ -55,7 +59,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="sm-post">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <p>
+                        <p style={{ color: color }}>
                           The Start-Up Ultimate Guide to Make Your WordPress
                           Journal.
                         </p>
@@ -79,7 +83,7 @@ const Footer = ({ hideBGCOLOR }) => {
                   <div className="sm-post">
                     <Link href="/blog-details/blog-details-dark">
                       <a>
-                        <p>
+                        <p style={{ color: color }}>
                           The Start-Up Ultimate Guide to Make Your WordPress
                           Journal.
                         </p>
@@ -91,11 +95,14 @@ const Footer = ({ hideBGCOLOR }) => {
                       </a>
                     </Link>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
+                    <Link href="/contacto">
+                      <button className="butn bord">
+                        <span>Reserva</span>
+                      </button>
+                    </Link>
                   </div>
                 </li>
               </ul>
@@ -107,27 +114,28 @@ const Footer = ({ hideBGCOLOR }) => {
                 <img src={appData.lightLogo} alt="" />
               </div>
               <div className="social">
-                <a href="#0">
+                <a
+                  href="https://www.facebook.com/hostelaltagracia/"
+                  className="icon"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0">
+                <a
+                  href="https://www.instagram.com/altagraciahostel/"
+                  className="icon"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-instagram"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
                 </a>
               </div>
               <div className="copy-right">
-                <p>
-                  © 2022, Vie Template. Made with passion by
-                  <Link
-                    href="https://themeforest.net/user/themescamp/portfolio"
-                    
-                  >
-                    <a target="_blank">ThemesCamp</a>
+                <p style={{ color: color }}>
+                  © 2023, Alta Gracia Hostel. Hecho con pasion por
+                  <Link href="https://www.imaginebig.dev/">
+                    <a target="_blank">Imagine Big</a>
                   </Link>
                   .
                 </p>

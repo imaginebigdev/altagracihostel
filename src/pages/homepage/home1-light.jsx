@@ -11,6 +11,7 @@ import Testimonials from "../../components/Testimonials/testimonials";
 import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
 import Clients from "../../components/Clients/clients";
 import Clients2 from "../../components/Clients2/clients2";
+import Services2 from "../../components/Services2/services2";
 
 const Homepage1 = () => {
   const fixedSlider = React.useRef(null);
@@ -50,7 +51,7 @@ const Homepage1 = () => {
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <AboutUs6 />
-        <Services />
+        <Services2 />
         <Testimonials />
         <Footer />
       </div>

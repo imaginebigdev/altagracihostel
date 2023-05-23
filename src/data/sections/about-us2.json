@@ -4,26 +4,7 @@
   "image2": "/img/intro/3.jpg",
   "image3": "/img/intro/2.jpg",
   "smallTitle": "About Us",
-  "title": { "first": "We are more than just", "second": "a digital agency." },
-  "content": "We are Vie. We create award-winning websites, remarkable brands and cutting-edge apps.Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet erat. Ut dictum nisi masvitp",
-  "features": [
-    {
-      "id": 1,
-      "icon": "gleam",
-      "name": { "first": "Pixel", "second": "Perfect" },
-      "wowDelay": ".3s"
-    },
-    {
-      "id": 2,
-      "icon": "paint-bucket",
-      "name": { "first": "Creative", "second": "Design" },
-      "wowDelay": ".5s"
-    },
-    {
-      "id": 3,
-      "icon": "medal",
-      "name": { "first": "Heigh", "second": "Perfomance" },
-      "wowDelay": ".8s"
-    }
-  ]
+  "title": "ESPACIOS",
+  "content": "Todos nuestros huéspedes pueden disfrutar de las áreas comunes donde encontrarán libros, revistas, música, juegos de mesa; la cocina-comedor completamente equipada para uso común y el patio con lavadero, tender, asador, mesas y sillas donde se puede tomar mate o una cerveza, relajarse en nuestro jardín mientras lees un libro bajo el sol cordobés o simplemente conversar.",
+  "content2": "El hostel cuenta con habitaciones privadas y a compartir (dormis) cada una con su baño privado. Nuestro principal objetivo es mantener un ambiente limpio, cómodo y relajado donde puedas sentirte a gusto."
 }
