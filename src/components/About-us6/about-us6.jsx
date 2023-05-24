@@ -3,11 +3,7 @@ import Link from "next/link";
 
 const AboutUs6 = () => {
   return (
-    <section
-      id="about"
-      className="about-ar section-padding"
-      style={{ background: "#f8f9fc" }}
-    >
+    <section id="about" className="about-ar section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 valign">

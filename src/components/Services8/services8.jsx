@@ -2,7 +2,7 @@ import React from "react";
 
 const Services8 = () => {
   return (
-    <section className="app-services section-padding bg-gray">
+    <section className="app-services section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">

@@ -55,8 +55,6 @@ const Services2 = () => {
           <i className="fas fa-long-arrow-alt-right"></i>
         </div>
       </div>
-      <div className="line top left"></div>
-      <div className="line bottom right"></div>
     </section>
   );
 };

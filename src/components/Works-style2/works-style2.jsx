@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
+import data from "../../data/clients.json";
 
 const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
   React.useEffect(() => {
@@ -52,225 +53,33 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
           )}
 
           <div className="gallery full-width">
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic`}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/1.jpg" alt="image" />
-                  </a>
-                </Link>
+            {data?.map((c) => (
+              <div
+                key={c.id}
+                className={`${
+                  grid === 3
+                    ? "col-lg-4 col-md-6"
+                    : grid === 2
+                    ? "col-md-6"
+                    : "col-12"
+                } items graphic`}
+                data-wow-delay=".4s"
+              >
+                <div className="item-img">
+                  <Link href={c.img}>
+                    <img
+                      src={c.img}
+                      style={{
+                        width: "360px",
+                        height: "450px",
+                        cursor: "pointer",
+                      }}
+                      alt="image"
+                    />
+                  </Link>
+                </div>
               </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/2.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/3.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items graphic `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/4.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items web `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/5.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <Link href={`/project-details2/project-details2-dark`}>
-                  <a>
-                    <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div
-              className={`${
-                grid === 3
-                  ? "col-lg-4 col-md-6"
-                  : grid === 2
-                  ? "col-md-6"
-                  : "col-12"
-              } items brand `}
-              data-wow-delay=".4s"
-            >
-              <div className="item-img">
-                <a>
-                  <img src="/img/portfolio/portfolio/1/6.jpg" alt="image" />
-                </a>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
