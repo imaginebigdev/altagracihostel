@@ -13,7 +13,7 @@ const Testimonials = () => {
   }, [load]);
   const paginationRef = React.useRef(null);
   return (
-    <section className="app-testim section-padding bg-gray">
+    <section className="app-testim section-padding">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-7 col-md-10">
@@ -65,9 +65,6 @@ const Testimonials = () => {
                 >
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
-                      <div className="icon mb-50">
-                        <img src="/img/mobile-app/qoute.png" alt="" />
-                      </div>
                       <div className="text">
                         <p>
                           Super bien atendido por Barbara, brinda toda la ayuda
@@ -83,9 +80,6 @@ const Testimonials = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
-                      <div className="icon mb-50">
-                        <img src="/img/mobile-app/qoute.png" alt="" />
-                      </div>
                       <div className="text">
                         <p>
                           Todo limpio y ordenado. Excelente disposición para
@@ -102,9 +96,6 @@ const Testimonials = () => {
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
-                      <div className="icon mb-50">
-                        <img src="/img/mobile-app/qoute.png" alt="" />
-                      </div>
                       <div className="text">
                         <p>
                           Hermoso lugar súper recomendable, muy buena ubicación,

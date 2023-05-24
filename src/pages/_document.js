@@ -10,16 +10,16 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang="es">
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Vie onepage themeforest"
+            content="Pagina oficial de Hostel Alta Gracia - ImagineBig"
           />
           <meta
             name="description"
-            content="Vie - Onepage Multi-Purpose HTML5 Template"
+            content="Pagina oficial de Hostel Alta Gracia - ImagineBig"
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />

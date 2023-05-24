@@ -95,7 +95,7 @@ p {
 
 .stit {
   font-size: 22px;
-  color: #f45162;
+  color: #de7218;
   position: relative;
   z-index: 4;
 }
@@ -117,7 +117,7 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #f45162;
+  background: #de7218;
   z-index: -1;
 }
 
@@ -138,7 +138,7 @@ p {
 }
 
 .bg-dark .stit {
-  color: #f45162 !important;
+  color: #de7218 !important;
 }
 
 .bg-dark .stit span {
@@ -171,18 +171,18 @@ p {
 }
 
 .page-app-header:before {
-  background: #f45162;
+  background: #de7218;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
 }
 
 .page-app-header .text-center h1 {
@@ -223,7 +223,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .swiper-pagination-bullets.swiper-pagination-horizontal
   .swiper-pagination-bullet-active {
-  background: #f45162;
+  background: #de7218;
   border-color: transparent;
 }
 
@@ -237,18 +237,18 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .buton.butn-gr {
-  background-color: #f45162;
+  background-color: #de7218;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
   border: 1px solid transparent;
   color: #fff;
 }
@@ -282,7 +282,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .buton.butn-bord-red {
-  border: 1px solid #f45162;
+  border: 1px solid #de7218;
 }
 
 .buton.butn-bord-light {
@@ -406,7 +406,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .serv-block .circle-blur {
   width: 240px;
   height: 240px;
-  background: #f45162;
+  background: #de7218;
   -webkit-filter: blur(120px);
   filter: blur(120px);
   left: 0;
@@ -441,7 +441,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   height: 20px;
   text-align: center;
   border-radius: 50%;
-  background: #f45162;
+  background: #de7218;
   margin-right: 20px;
 }
 
@@ -452,7 +452,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .serv-block .app-sta .item .icon {
-  color: #f45162;
+  color: #de7218;
   font-size: 40px;
   margin-bottom: 10px;
 }
@@ -554,11 +554,11 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -577,12 +577,12 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .app-services .item .item-tit .icon svg {
   width: 40px;
-  fill: #f45162;
+  fill: #de7218;
 }
 
 .app-services .item .item-tit .icon span {
   font-size: 45px;
-  color: #f45162;
+  color: #de7218;
 }
 
 .app-services .item .item-tit .text-tit h5 {
@@ -643,11 +643,11 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -656,13 +656,13 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .app-process .item .icon {
   font-size: 60px;
-  color: #f45162;
+  color: #de7218;
   margin-bottom: 30px;
 }
 
 .app-process .item .step-number {
   font-size: 14px;
-  color: #f45162;
+  color: #de7218;
   letter-spacing: 4px;
   text-transform: uppercase;
   margin: 20px auto;
@@ -721,7 +721,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .team-vid .vid-img .vid svg {
-  fill: #f45162;
+  fill: #de7218;
   width: 20px;
   position: absolute;
   top: 50%;
@@ -746,11 +746,11 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
 }
 
 .team-vid .item .img img {
@@ -779,7 +779,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .team-vid .item .img:before {
-  background: #f45162;
+  background: #de7218;
   bottom: -15px;
   right: -15px;
 }
@@ -817,18 +817,18 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   left: 0;
   width: 100%;
   height: 2px;
-  background: #f45162;
+  background: #de7218;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -836,7 +836,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-works .filter span.active {
-  color: #f45162;
+  color: #de7218;
 }
 
 .app-works .filter span.active:after {
@@ -912,7 +912,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .app-price .item .amount h3 {
   font-size: 100px;
   font-weight: 500;
-  color: #f45162;
+  color: #de7218;
   position: relative;
   display: inline-block;
   line-height: 1;
@@ -950,7 +950,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   height: 20px;
   text-align: center;
   border-radius: 50%;
-  background: #f45162;
+  background: #de7218;
   margin-right: 20px;
 }
 
@@ -982,7 +982,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background: #fff;
+  background: #f4be28;
   z-index: -1;
 }
 
@@ -993,10 +993,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background: #f45162;
-  background: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
-  background: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
-  background: linear-gradient(-35deg, #17c0e9, #c96ddd, #f45162);
+  background: #de7218;
   z-index: -2;
   opacity: 0;
   -webkit-transition: all 0.4s;
@@ -1041,10 +1038,10 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 /* ====================== [ End app-testim  ] ====================== */
 /* ====================== [ Start app-action  ] ====================== */
 .app-action .box-gr {
-  background-color: #f45162;
-  background-image: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(-35deg, #17c0e9, #c96ddd, #f45162);
+  background-color: #de7218;
+  background-image: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(-35deg, #17c0e9, #c96ddd, #de7218);
   margin-top: 100px;
 }
 
@@ -1089,10 +1086,10 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-blog .item:hover .buton {
-  background: #f45162;
-  background: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
-  background: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
-  background: linear-gradient(-35deg, #17c0e9, #c96ddd, #f45162);
+  background: #de7218;
+  background: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #de7218);
+  background: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #de7218);
+  background: linear-gradient(-35deg, #17c0e9, #c96ddd, #de7218);
   color: #fff;
   border-color: transparent;
 }
@@ -1119,7 +1116,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #f45162;
+  color: #de7218;
   margin-bottom: 15px;
 }
 
@@ -1153,9 +1150,9 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .app-blog .item .cont .buton:hover {
-  background: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
-  background: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
-  background: linear-gradient(-35deg, #17c0e9, #c96ddd, #f45162);
+  background: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #de7218);
+  background: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #de7218);
+  background: linear-gradient(-35deg, #17c0e9, #c96ddd, #de7218);
   color: #fff;
   border-color: transparent;
 }
@@ -1175,7 +1172,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .shop .sidebar .search .form-group button {
   padding: 11px 20px;
-  background: #f45162;
+  background: #de7218;
   color: #fff;
   font-size: 18px;
   border: 0;
@@ -1235,18 +1232,18 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 
 .shop .sidebar .tags a:hover {
   color: #fff;
-  background: #f45162;
+  background: #de7218;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
 }
 
 .shop .store .top-area .filter-select select {
@@ -1302,18 +1299,18 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   border-radius: 4px;
   color: #fff;
   font-size: 14px;
-  background: #f45162;
+  background: #de7218;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
   z-index: 2;
 }
 
@@ -1338,18 +1335,18 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
   border-radius: 4px;
   color: #fff;
   font-size: 14px;
-  background: #f45162;
+  background: #de7218;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
 }
 
 .shop .store .item .img .add a span {
@@ -1368,7 +1365,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 }
 
 .shop .store .item .info span {
-  color: #f45162;
+  color: #de7218;
   margin-top: 10px;
 }
 
@@ -1413,17 +1410,17 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     linear,
     left top,
     right top,
-    from(#f45162),
+    from(#de7218),
     to(#dee4ec)
   );
   background: -webkit-linear-gradient(
     left,
-    #f45162 var(--range-progress),
+    #de7218 var(--range-progress),
     #dee4ec var(--range-progress)
   );
   background: linear-gradient(
     90deg,
-    #f45162 var(--range-progress),
+    #de7218 var(--range-progress),
     #dee4ec var(--range-progress)
   );
   border-radius: 2px;
@@ -1432,17 +1429,17 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .shop #range::-webkit-slider-thumb {
   -webkit-appearance: none;
   border-radius: 50%;
-  background: #f45162;
+  background: #de7218;
   background-image: -webkit-gradient(
     linear,
     right top,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -1461,7 +1458,7 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
 .app-footer .circle-blur {
   width: 180px;
   height: 180px;
-  background: #f45162;
+  background: #de7218;
   -webkit-filter: blur(120px);
   filter: blur(120px);
   left: 0;
@@ -1540,11 +1537,11 @@ body .swiper-pagination-bullets.swiper-pagination-horizontal,
     left top,
     from(#17c0e9),
     color-stop(#c96ddd),
-    to(#f45162)
+    to(#de7218)
   );
-  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
-  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #de7218);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #de7218);
   opacity: 0;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;

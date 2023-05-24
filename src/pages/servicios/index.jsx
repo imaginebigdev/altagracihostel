@@ -34,9 +34,7 @@ const About = () => {
       <Navbar nr={navbarRef} lr={logoRef} theme="themeL" />
       <PagesHeader />
       <AboutIntro />
-
       <MinimalArea info={info} />
-
       <AboutUs2 />
       <Services8 />
       <Footer />
