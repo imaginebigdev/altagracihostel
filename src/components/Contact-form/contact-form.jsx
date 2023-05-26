@@ -1,6 +1,7 @@
 import React from "react";
 import ContactFromDate from "../../data/sections/form-info.json";
 import { Formik, Form, Field } from "formik";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const messageRef = React.useRef(null);
@@ -11,9 +12,9 @@ const ContactForm = () => {
     name: "",
     email: "",
     room: "",
+    phone: "",
     message: "",
   });
-  console.log(input);
   const validador = (inputs) => {
     let validations = {};
     const emailExpresion =
@@ -37,12 +38,19 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm("service", "template", e.target, "key").then((res) => {
-      console.log(res),
-        (error) => {
-          console.log(error);
-        };
-    });
+    emailjs
+      .sendForm(
+        "service_h1x2n3b",
+        "template_ht1biuu",
+        e.target,
+        "yepvxwANIk5NuvXmL"
+      )
+      .then((res) => {
+        console.log(res),
+          (error) => {
+            console.log(error);
+          };
+      });
 
     messageRef.current.innerText =
       "Su mensaje fue enviado correctamente. Nos estaremos contactando con usted a la brevedad.";
@@ -64,6 +72,9 @@ const ContactForm = () => {
           <div className="col-lg-6">
             <div className="form md-mb50">
               <h4 className="fw-700 color-font mb-50">Reserva ahora</h4>
+              <h6 className="mb-30" style={{ color: "#555" }}>
+                Las opciones marcadas con {'"'}*{'"'}, son obligatorias
+              </h6>
               <Formik>
                 <Form onSubmit={sendEmail} autoComplete="off" id="contact-form">
                   <div className="messages" ref={messageRef}></div>
@@ -74,8 +85,18 @@ const ContactForm = () => {
                         type="text"
                         name="name"
                         value={input.name}
-                        placeholder="Nombre Completo"
+                        placeholder="Nombre Completo*"
                         required="required"
+                        onChange={(e) => handleOnChange(e)}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <Field
+                        id="form_phone"
+                        type="text"
+                        name="phone"
+                        value={input.phone}
+                        placeholder="Telefono de contacto"
                         onChange={(e) => handleOnChange(e)}
                       />
                     </div>
@@ -84,7 +105,7 @@ const ContactForm = () => {
                         id="form_email"
                         type="email"
                         name="email"
-                        placeholder="Email"
+                        placeholder="Email*"
                         onChange={(e) => handleOnChange(e)}
                         value={input.email}
                       />
