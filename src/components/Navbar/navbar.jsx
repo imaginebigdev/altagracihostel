@@ -74,11 +74,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">Reserva aquí</a>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href={`/blog`}>
                 <a className="nav-link">Blog</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
