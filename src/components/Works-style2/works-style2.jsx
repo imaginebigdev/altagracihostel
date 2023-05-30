@@ -66,7 +66,7 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 data-wow-delay=".4s"
               >
                 <div className="item-img">
-                  <Link href={c.img}>
+                  <Link href={c.img} passHref>
                     <img
                       src={c.img}
                       style={{

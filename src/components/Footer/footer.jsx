@@ -98,7 +98,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 </li> */}
                 <li>
                   <div className="subscribe">
-                    <Link href="/contacto">
+                    <Link href="/contacto" passHref>
                       <button className="butn bord">
                         <span>Reserva</span>
                       </button>
