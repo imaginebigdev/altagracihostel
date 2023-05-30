@@ -3,36 +3,36 @@
     "id": 1,
     "tittle": "Habitacion 1",
     "content": "Cama en habitación compartida de 6 camas. Esta habitación cuenta con 3 camas cucheta, ropa de cama, baño privado y amplios lockers.",
-    "img": ["/img/habitaciones/1.jpg", "/img/habitaciones/6.jpg", "/img/habitaciones/2.jpg"]
+    "img": ["/img/habitaciones/1-1.jpg", "/img/habitaciones/1-2.jpg"]
   },
   {
     "id": 2,
     "tittle": "Habitacion 2",
     "content": "Cama en habitación compartida de 8 camas. Esta habitación cuenta con 4 camas cucheta, ropa de cama, baño privado y amplios lockers.",
-    "img": ["/img/habitaciones/2.jpg", "/img/habitaciones/6.jpg", "/img/habitaciones/2.jpg"]
+    "img": ["/img/habitaciones/2-1.jpg", "/img/habitaciones/2-2.jpg", "/img/habitaciones/2-3.jpg"]
   },
   {
     "id": 3,
     "tittle": "Habitacion 3",
     "content": "Esta habitación cuenta con cama matrimonial, ropa de cama, toallas, baño privado, aire acondicionado y calefacción.",
-    "img": ["/img/habitaciones/3.jpg", "/img/habitaciones/6.jpg", "/img/habitaciones/2.jpg"]
+    "img": ["/img/habitaciones/3-1.jpg", "/img/habitaciones/3-2.jpg"]
   },
   {
     "id": 4,
     "tittle": "Habitacion 4",
     "content": "Esta habitación cuenta con cama individual + 1 cama cucheta, ropa de cama, toallas, baño privado y calefacción",
-    "img": ["/img/habitaciones/4.jpg", "/img/habitaciones/6.jpg", "/img/habitaciones/2.jpg"]
+    "img": ["/img/habitaciones/4-1.jpg", "/img/habitaciones/4-2.jpg", "/img/habitaciones/4-3.jpg"]
   },
   {
     "id": 5,
     "tittle": "Habitacion 5",
     "content": "Esta habitación cuenta con cama individual + 1 cama cucheta, ropa de cama, toallas, baño privado y calefacción.",
-    "img": ["/img/habitaciones/5.jpg", "/img/habitaciones/6.jpg", "/img/habitaciones/2.jpg"]
+    "img": ["/img/habitaciones/5-1.jpg", "/img/habitaciones/5-2.jpg", "/img/habitaciones/5-3.jpg"]
   },
   {
     "id": 6,
     "tittle": "Habitacion 6",
     "content": "Esta habitación cuenta con 1 cama matrimonial + 1 cama cucheta, ropa de cama, toallas, baño privado, aire acondicionado y calefacción.",
-    "img": ["/img/habitaciones/6.jpg", "/img/habitaciones/6.jpg", "/img/habitaciones/2.jpg"]
+    "img": ["/img/habitaciones/6-1.jpg", "/img/habitaciones/6-2.jpg", "/img/habitaciones/6-3.jpg", "/img/habitaciones/6-4.jpg", "/img/habitaciones/6-5.jpg"]
   }
 ]
