@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
 import Intro5 from "../../components/Intro5/intro5";
-import MinimalArea from "../../components/Minimal-Area/minimal-area";
+import Gallery from "../../components/Gallery/gallery";
 import habitaciones from "../../data/habitaciones/habitacion.json";
 
 const About = () => {
@@ -32,7 +32,7 @@ const About = () => {
       <Intro5 />
 
       {habitaciones?.map((item) => (
-        <MinimalArea info={item} key={item.id} />
+        <Gallery info={item} key={item.id} />
       ))}
       <Footer />
     </LightTheme>
