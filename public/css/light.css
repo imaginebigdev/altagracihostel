@@ -24,6 +24,7 @@
         |- buttons
         |- navbar
         |- sliders
+        |- galleries
         |- intro
         |- feature-box
         |- clients
@@ -3410,6 +3411,20 @@ span:hover {
 }
 
 /* ====================== [ End Slider ] ====================== */
+/* ====================== [ Start Gallery ] ====================== */
+.gallery.min-area {
+  padding-block: 4rem;
+}
+
+.gallery .gallery-thumbs.swiper-thumbs {
+  margin-top: 1rem;
+}
+
+.gallery .gallery-thumbs.swiper-thumbs .swiper-slide-visible {
+  cursor: pointer;
+}
+
+/* ====================== [ End Gallery ] ====================== */
 /* ====================== [ Start showcase ] ====================== */
 .showcase-full .parallax-slider .swiper-slide .bg-img {
   background-position: center center;

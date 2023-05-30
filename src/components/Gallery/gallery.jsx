@@ -41,6 +41,7 @@ const Gallery = ({ info }) => {
               freeMode={true}
               watchSlidesProgress={true}
               modules={[FreeMode, Navigation, Thumbs]}
+              className="gallery-thumbs"
             >
               {info?.img.map((item) => (
                   <SwiperSlide key={uuid_v4()}>
