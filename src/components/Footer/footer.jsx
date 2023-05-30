@@ -35,7 +35,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Telefono</h6>
+                    <h6>Teléfono</h6>
                     <p style={{ color: color }}>+3547428810</p>
                   </div>
                 </li>
@@ -133,7 +133,7 @@ const Footer = ({ hideBGCOLOR }) => {
               </div>
               <div className="copy-right">
                 <p style={{ color: color }}>
-                  © 2023, Alta Gracia Hostel. Hecho con pasion por
+                  © 2023, Alta Gracia Hostel. Hecho con pasión por
                   <Link href="https://www.imaginebig.dev/">
                     <a target="_blank">Imagine Big</a>
                   </Link>
