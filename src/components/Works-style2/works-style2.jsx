@@ -1,16 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
 import data from "../../data/clients.json";
+import Modal from "./modal";
+
 
 const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
+  const [modalShown, toggleModal] = React.useState(false);
   React.useEffect(() => {
     setTimeout(() => {
       initIsotope();
     }, 1000);
   }, []);
   return (
+    <>
+      <Modal
+        shown={modalShown}
+        className="modal fade"
+        close={() => {
+          toggleModal(false);
+        }}
+      >
+      </Modal>
     <section
       className={`${
         grid ? (grid === 3 ? "three-column" : null) : null
@@ -66,7 +77,6 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                 data-wow-delay=".4s"
               >
                 <div className="item-img">
-                  <Link href={c.img}>
                     <img
                       src={c.img}
                       style={{
@@ -75,15 +85,20 @@ const WorksStyle2 = ({ grid, hideFilter, filterPosition }) => {
                         cursor: "pointer",
                       }}
                       alt="image"
+                      onClick={() => {
+                        toggleModal(!modalShown);
+                      }}
                     />
-                  </Link>
+                  
                 </div>
               </div>
             ))}
           </div>
+          
         </div>
       </div>
     </section>
+    </>
   );
 };
 
