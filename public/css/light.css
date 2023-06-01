@@ -20,6 +20,7 @@
 
         |- extra
         |- overlay
+        |- modal
         |- section-heading
         |- buttons
         |- navbar
@@ -1525,6 +1526,58 @@ span:hover {
 }
 
 /* ====================== [ End Overlay ] ====================== */
+/* ====================== [ Start Modal ] ====================== */
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.modal-content button.close {
+  align-self: flex-end;
+  padding: 1rem 1rem;
+  color: #de7218;
+}
+
+.modal-content .container {
+  margin-bottom: 1rem;
+}
+
+.modal-content .modal-swipper {
+  display: flex;
+}
+
+.modal-content .modal-swipper .swiper-slide {
+  align-self: center;
+}
+
+.modal-content img {
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+/* ====================== [ End Modal ] ====================== */
 /* ====================== [ Start Heading ] ====================== */
 .sec-head {
   position: relative;
