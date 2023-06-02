@@ -1,4 +1,4 @@
-# TipaDePunilla
+# Alta Gracia Hostel
 
 ## Instalacion
 
