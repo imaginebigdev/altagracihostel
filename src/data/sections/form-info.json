@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "title": "Contactanos",
+  "email": "info@altagraciahostel.com.ar",
+  "email2": "altagraciahostel@gmail.com",
+  "phone": "+(549)3547664268",
+  "location": {
+    "first": "Paraguay 218 entre calles Brasil y Agustín Aguirre, ",
+    "second": "ALTA GRACIA (X5186) Argentina"
+  }
+}
