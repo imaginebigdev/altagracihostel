@@ -13,7 +13,7 @@ const Homepage1 = () => {
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
- /*  hola */
+ 
 
   React.useEffect(() => {
     setInterval(() => {
